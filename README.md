@@ -6,7 +6,7 @@ It´s using the newest firebase version. Also Vue 3 [SFC `<script setup>`](https
 
 # setup
 
-You need to create a file called firebase-config.js inside **src** folder.
+You need to create a file called **firebase-config.js** inside **src** folder.
 And copy in your firebase config.
 Example:
 
@@ -19,10 +19,10 @@ Example:
 	    appId:  "1:xxx:web:xxx"
     }
 
-You also need to create a file in the main folder .firebaserc
+You also need to create a file in the main folder called **.firebaserc**
 
     {
 	    "projects":{ 
 		    "default" : "<yourprojectid>"
-		}
-	}
+	    }
+    }
