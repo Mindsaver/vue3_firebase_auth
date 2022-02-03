@@ -11,7 +11,7 @@ const router = createRouter({
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () =>
-        import(/* webpackChunkName: "about" */ "../views/Home.vue"),
+        import(/* webpackChunkName: "home" */ "../views/Home.vue"),
     },
     {
       path: "/login",
@@ -36,7 +36,7 @@ const router = createRouter({
       name: "passwordreset",
       component: () =>
         import(
-          /* webpackChunkName: "register" */ "../views/auth/PasswordReset.vue"
+          /* webpackChunkName: "passwordreset" */ "../views/auth/PasswordReset.vue"
         ),
       meta: {
         requiresNoAuth: true,
@@ -52,19 +52,10 @@ const router = createRouter({
       },
     },
     {
-      path: "/crud",
-      name: "crud",
-      component: () =>
-        import(/* webpackChunkName: "feed" */ "../views/CRUD.vue"),
-      meta: {
-        requiresAuth: true,
-      },
-    },
-    {
       path: "/profile",
       name: "profile",
       component: () =>
-        import(/* webpackChunkName: "feed" */ "../views/Profile.vue"),
+        import(/* webpackChunkName: "profile" */ "../views/Profile.vue"),
       meta: {
         requiresAuth: true,
       },

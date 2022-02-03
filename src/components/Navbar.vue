@@ -10,7 +10,7 @@
       >
 
       <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto" v-if="loggedIn">
-        <router-link to="/crud" class="me-3 py-2 text-dark text-decoration-none"
+        <router-link to="/notes" class="me-3 py-2 text-dark text-decoration-none"
           >Notes</router-link
         >
         <!--  <router-link to="/profile" class="me-3 py-2 text-dark text-decoration-none">Profile</router-link>-->
