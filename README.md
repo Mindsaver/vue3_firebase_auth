@@ -26,3 +26,8 @@ You also need to create a file in the main folder called **.firebaserc**
 		    "default" : "<yourprojectid>"
 	    }
     }
+
+
+## Firebase Hosting
+
+https://firebase.google.com/docs/hosting/quickstart
