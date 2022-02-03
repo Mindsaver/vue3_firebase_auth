@@ -41,4 +41,3 @@ app.use(router);
 app.use(VueSweetalert2)
 app.mount("#app");
 
-//https://github.com/leighayanid/firekit-template
