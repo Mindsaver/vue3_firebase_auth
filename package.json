@@ -1,0 +1,27 @@
+{
+  "name": "vue3-firebase-auth",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && firebase deploy"
+  },
+  "dependencies": {
+    "@sweetalert2/theme-bootstrap-4": "^5.0.8",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.2",
+    "sweetalert2": "^11.3.10",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.12",
+    "vue-sweetalert2": "^5.0.2",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "firebase": "^9.6.4",
+    "sass": "^1.49.0",
+    "sass-loader": "^12.4.0",
+    "vite": "^2.7.2"
+  }
+}
