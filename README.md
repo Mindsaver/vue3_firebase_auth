@@ -2,7 +2,8 @@
 # vue3_firebase_auth
 
 This is a template for creating vue3 login/register via firebase-auth and using firestore to store some custom data.
-It´s using the newest firebase version. Also Vue 3 [SFC `<script setup>`](https://v3.vuejs.org/api/sfc-script-setup.html) syntax
+Additional this page can be hosted via firebase hosting.
+The app using the newest firebase version and we are using the Vue 3 [SFC `<script setup>`](https://v3.vuejs.org/api/sfc-script-setup.html) syntax
 
 # setup
 
